@@ -2,8 +2,14 @@
 
 function division(number, dividedBy){
     // Write you logic here.
-    r= number / dividedBy;
-    return r;
+    let num = 0;
+if (dividedBy===0) {
+    return 0;
+}else{
+    num=number / dividedBy;
+
+}
+return num;
 }
 
 /* Write a function that implement Math.pow(x,n) but using recursion

@@ -29,7 +29,7 @@ required extention are jpg, jpeg and png.
 function imagesSearcher(text){
     let arr = [];
     // Add your logic.
-    let result =text.match(/.png/ && /.jpg/g);
+    let result =text.match(/.png|.jpg|.jpeg?$/ );
     arr.push(result);
     return arr
 }
